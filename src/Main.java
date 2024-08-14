@@ -19,7 +19,7 @@ public class Main {
                         loanAmountInRubles,
                         interestRateInPercents,
                         loanTermInYears
-                ); // Должно получиться 87911
+                ); // Должно получиться 46140
         System.out.println(monthlyLoanPayment);
 
         loanTermInYears = 3; // срок кредита 3 года
@@ -28,7 +28,7 @@ public class Main {
                         loanAmountInRubles,
                         interestRateInPercents,
                         loanTermInYears
-                ); // Должно получиться 87911
+                ); // Должно получиться 32262
         System.out.println(monthlyLoanPayment);
     }
 }
