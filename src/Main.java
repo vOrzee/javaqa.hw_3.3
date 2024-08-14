@@ -5,7 +5,7 @@ public class Main {
         double interestRateInPercents = 9.99; // процентная ставка
         int loanTermInYears = 1; // срок кредита 1 год
 
-        int monthlyLoanPayment = CreditPaymentService
+        int monthlyLoanPayment = service
                 .calculateMonthlyPayment(
                         loanAmountInRubles,
                         interestRateInPercents,
@@ -14,7 +14,7 @@ public class Main {
         System.out.println(monthlyLoanPayment);
 
         loanTermInYears = 2; // срок кредита 2 года
-        monthlyLoanPayment = CreditPaymentService
+        monthlyLoanPayment = service
                 .calculateMonthlyPayment(
                         loanAmountInRubles,
                         interestRateInPercents,
@@ -23,7 +23,7 @@ public class Main {
         System.out.println(monthlyLoanPayment);
 
         loanTermInYears = 3; // срок кредита 3 года
-        monthlyLoanPayment = CreditPaymentService
+        monthlyLoanPayment = service
                 .calculateMonthlyPayment(
                         loanAmountInRubles,
                         interestRateInPercents,
